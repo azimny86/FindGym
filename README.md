@@ -1,1 +1,1 @@
-# FindGym
+# Find A MMA Gym
