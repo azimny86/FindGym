@@ -1,44 +1,40 @@
-/*  Slideshow  */
-.mySlides {
-    display: none;
+/* Navbar*/
+.container-fluid {
+    background-color: rgba(0, 255, 157, 0.6);
+    position: relative;
+    border: ridge;
 }
+/* Slideshow*/
 
-.slideshow {
-    max-width: 100%;
+#slideshow {
     margin: auto;
     position: relative;
+    width: 100%;
+    height: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
-.dot {
-    height: 15px;
-    width: 15px;
-}
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 2s;
-    animation-name: fade;
-    animation-duration: 2s;
-}
-
-@-webkit-keyframes fade {
-    from {opacity: .5}
-    to {opacity: 1}
-}
-
-@keyframes fade {
-    from {opacity: .5}
-    to {opacity: 1}
+#slideshow > div {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
 }
 
 /* Artice Find*/
 
+
 .findGym {
     padding-top: 25px;
+    position: relative;
+    background-color: #fafafa;
 }
+
 /*  Footer  */
 
+
 .social-links {
-    display: flex; 
-    background-color:rgba(84, 0, 255, 0.6) ;
+    display: flex;
+    background-color:rgba(0, 255, 157, 0.6) ;
 }
