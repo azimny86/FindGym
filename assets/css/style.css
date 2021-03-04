@@ -1,0 +1,44 @@
+/*  Slideshow  */
+.mySlides {
+    display: none;
+}
+
+.slideshow {
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+}
+
+/* Artice Find*/
+
+.findGym {
+    padding-top: 25px;
+}
+/*  Footer  */
+
+.social-links {
+    display: flex; 
+    background-color:rgba(84, 0, 255, 0.6) ;
+}
